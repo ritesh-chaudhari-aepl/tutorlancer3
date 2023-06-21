@@ -19,7 +19,7 @@ const Features = () => {
                 <strong>different</strong>
               </h3>
             </div>
-            <p className="text-center mt-3 font-semibold font-Inter sm:leading-[27px]">lorem ipsum is simply dummy the of the printing and typesetting industry.<br /> lorem ipsum has been the 1500s, when</p>
+            <p className="text-center mt-3 font-semibold font-Inter sm:leading-[27px]">Urdoer is focused on ensuring to meet the needs of the <br className="hidden sm:block"></br> students around the globe for their assignments.</p>
           </div>
 
           <div className="">

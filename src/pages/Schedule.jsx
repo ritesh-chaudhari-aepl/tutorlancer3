@@ -44,7 +44,7 @@ const Schedule = () => {
               variety of time slots entirely designed around each student’s
               individual pace.
             </p>
-
+{/* 
             <CustomButton
               bgGradientStart="#FF7714"
               bgGradientEnd="#FFCF59"
@@ -52,7 +52,7 @@ const Schedule = () => {
               textColor="white"
             >
               Learn More
-            </CustomButton>
+            </CustomButton> */}
           </div>
         </div>
       </div>

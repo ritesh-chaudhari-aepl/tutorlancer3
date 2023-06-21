@@ -12,11 +12,10 @@ const Download = () => {
   };
   return (
     <section
-      // className="bg-primaryWhite relative overflow-hidden"
-      className="bg-primaryWhite relative"
+      className="bg-primaryWhite relative overflow-hidden"
       aria-label="download feature section"
     >
-      <div className="text-white xl:overflow-hidden overflow-hidden" style={bgstyles}>
+      <div className="text-white" style={bgstyles}>
         <div className="mx-auto max-w-screen-xl ">
           <div className="py-6 sm:py-12 sm:px-0 px-10">
             <div className="sm:px-10 flex flex-col">
@@ -64,7 +63,7 @@ const Download = () => {
             </span>
           </div>
 
-          <div className="circle rounded-full h-32 w-32 sm:h-48 sm:w-48 bg-green-garden flex flex-col p-2 items-center text-center">
+          <div className=" rounded-full h-32 w-32 sm:h-48 sm:w-48 bg-green-garden flex flex-col p-2 items-center text-center">
             <span className="font-QuickSand font-bold sm:text-[30px]">
               4.5/5
             </span>
@@ -76,7 +75,7 @@ const Download = () => {
           </div>
         </div>
         <div className="absolute left-[34rem] top-[0rem] xl:left-[57rem] xl:top-[-12rem] lg:left-[38rem]">
-          <img src={phone} alt="phone-gif" className="relative left-12 top-10 mt-4 w-[90%]" />
+          <img src={phone} alt="phone-gif" className="absolute hidden xl:block xl:right-0 xl:top-0 xl:mt-4 xl:w-full" />
         </div>
       </div>
     </section>

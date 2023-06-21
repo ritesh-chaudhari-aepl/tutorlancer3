@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
-import Nav from "../navbar/Navbar";
-import MobileNav from "../navbar/Mobilenav";
+import Nav from "./navbar/Navbar";
+import MobileNav from "./navbar/Mobilenav";
 
 function Header({ myRef }) {
   // mobile nav state
@@ -18,7 +18,14 @@ function Header({ myRef }) {
       window.scrollY > 70 ? setIsActive(true) : setIsActive(false);
     });
   });
+  function handleScroll(section){
+    let value=document.getElementById(section)
+    console.log(value)
+    if(value){
+        value.scrollIntoView({behavior:"smooth",block:'center',inline:'center'})
+    }
 
+}
   return (
     <header
       className={`${
@@ -35,26 +42,21 @@ function Header({ myRef }) {
           </span>
         </a>
         {/* nav - initially hidden - show on desktop mode */}
-        <div className="hidden lg:flex lg:items-center lg:gap-3">
+        <div className="hidden sm:flex lsm:items-center sm:gap-3">
           <Nav ref={myRef} />
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden sm:block">
+          
           <a
-            href="#"
-            className="inline-block rounded-full bg-transparent px-3 py-4 text-sm font-medium text-black transition hover:bg-indigo-700 capitalize"
+            onClick={()=>handleScroll('contact')}
+            className="inline-block cursor-pointer rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
-            Sign in
-          </a>
-          <a
-            href="#"
-            className="inline-block rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
-          >
-            Sign Up
+            Contact Us
           </a>
         </div>
         {/* cta button - initially hidden - show on desktop mode */}
         {/* mobile nav trigger btn - hidden on desktop */}
-        <button className="lg:hidden" onClick={() => setMobileNav(!mobileNav)}>
+        <button className="sm:hidden" onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? (
             <HiOutlineX className="text-3xl text-primary" />
           ) : (
@@ -65,7 +67,7 @@ function Header({ myRef }) {
         <div
           className={`${
             mobileNav ? "left-0" : "-left-full"
-          }  fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all`}
+          }  fixed top-0 bottom-0 w-[60vw] block sm:hidden transition-all`}
         >
           <MobileNav />
         </div>
