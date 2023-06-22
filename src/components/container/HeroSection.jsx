@@ -11,7 +11,10 @@ const Hero = () => {
   //   backgroundRepeat: "no-repeat",
   //   height: "100vh",
   // };
-
+const scrollToContact=(pos)=>{
+  let value=document.getElementById(pos)
+  value.scrollIntoView({behavior:'smooth',block:'center'})
+}
   return (
     <section className="bg-primaryWhite">
       <div className="mx-auto max-w-screen-2xl lg:max-w-screen-xl px-4 py-2 sm:py-12 sm:px-6 lg:py-2 lg:px-8">
@@ -31,9 +34,9 @@ const Hero = () => {
                 </span>
               </div>
               <h1 className="text-4xl leading-[50px] font-normal capitalize lg:text-[48px] lg:leading-[60px] xl:text-[62px] xl:leading-[85px] mb-8">
-                get quality{" "}
+                Top In{" "}
                 <span className="relative font-bold">
-                  Tutoring
+                  Grades
                   <img
                     src={flower}
                     alt="flower"
@@ -41,18 +44,18 @@ const Hero = () => {
                   />
                 </span>
                 <strong>
-                  <br /> through 1-on-1
+                  <br /> And Expert
                 </strong>
-                <br /> online tutoring
+                <br />In Quality
               </h1>
 
               <p className="mt-3 text-black font-Inter font-medium mb-10">
-                private, 1-on-1 lessions with te expert instructor based on
-                <br /> your goals and interests.
+              Welcome to {'"TOP GRADES EXPERTS,"'} 
               </p>
 
               <div className="mb-6 flex flex-col gap-10 sm:flex-row sm:gap-6">
                 <CustomButton
+                 onClick={()=>scrollToContact('contact')}
                   bgGradientStart="#FF7714"
                   bgGradientEnd="#FFCF59"
                   borderRadius="full"
@@ -62,7 +65,7 @@ const Hero = () => {
                 </CustomButton>
                 <div className="flex flex-row gap-3 items-center sm:only:justify-center">
                   <a
-                    href="#"
+                    onClick={()=>scrollToContact('session')}
                     className="inline-block rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light p-3 text-sm font-medium text-white transition hover:bg-blue-darkBlue focus:outline-none "
                   >
                     <BsFillPlayFill size={25} />

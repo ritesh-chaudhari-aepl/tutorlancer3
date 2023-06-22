@@ -1,6 +1,6 @@
 import sideImage from "../assets/group1.svg";
 import line from "../assets/line.svg";
-import CustomButton from "../components/buttons/CustomButton";
+// import CustomButton from "../components/buttons/CustomButton";
 
 const Schedule = () => {
   return (
@@ -44,7 +44,7 @@ const Schedule = () => {
               variety of time slots entirely designed around each student’s
               individual pace.
             </p>
-
+{/* 
             <CustomButton
               bgGradientStart="#FF7714"
               bgGradientEnd="#FFCF59"
@@ -52,7 +52,7 @@ const Schedule = () => {
               textColor="white"
             >
               Learn More
-            </CustomButton>
+            </CustomButton> */}
           </div>
         </div>
       </div>

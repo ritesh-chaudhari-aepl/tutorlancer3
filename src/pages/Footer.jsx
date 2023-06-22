@@ -1,3 +1,5 @@
+ import logo from '../assets/logo17.png'
+
 const Footer = () => {
   return (
     <footer className=" bg-gradient-to-r from-pink-darkPink to-blue-light text-white">
@@ -7,21 +9,21 @@ const Footer = () => {
         <div>
           <div className="flex flex-col gap-8">
             <span className="tracking-[6px] font-Nunito font-bold text-2xl sm:text-4xl">
-              LOGO
+            <img width={80} src={logo} alt='logo'/>
             </span>
             <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:gap-8">
               <div>
                 <p className="text-[18px] font-Nunito font-[500] leading-[30px]">
-                  Tutorlancer is an online platform that connects online tutors
+                  Top Grades Experts is an online platform that connects online tutors
                   with
                   <br /> students across the globe who seeks academic help.
                 </p>
                 <p className="flex flex-col gap-1 font-Nunito">
                   <span>
-                    <strong>Email</strong>: support@thetutorlancer.com
+                    <strong>Email</strong>: topradesexperts@gmail.com
                   </span>
                   <span>
-                    <strong>Phone</strong>: +91 6289409441
+                    <strong>Phone</strong>: +91 7255095482
                   </span>
                 </p>
               </div>
@@ -37,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <p className="mb-10 sm:mb-0">
-                © 2022 thetutorlancer.com. All rights reserved Abhay Education
+                © 2022 theTop Grades Experts.com. All rights reserved Abhay Education
                 Pvt. Ltd.
               </p>
               <ul className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
