@@ -1,6 +1,6 @@
 import Banner from "../components/banner/Banner"
 import Hero from "../components/container/HeroSection"
-import Instructor from "../components/container/Instructor"
+// import Instructor from "../components/container/Instructor"
 import Header from "../components/header/Header"
 import About from "./About"
 import ChooseUs from "./ChooseUs"

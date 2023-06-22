@@ -78,11 +78,9 @@ const About = () => {
             <div className="py-6 lg:py-8">
               <article className="text-black">
                 <p>
-                  Tutorlancer is an online platform that connects online tutors
-                  with students across the globe who seeks academic help. We
-                  help students across the globe who are stuck with their
-                  subjects, by connecting them with tutors. We aim to
-                  strategically connect students and tutors online.
+                Your premier destination for top-notch assignment assistance. Our company is dedicated to providing exceptional academic support to students like you, ensuring your success and helping you achieve top grades in your coursework.
+                 Payments are secured through RazorPay. Powered by Razorpay.
+
                 </p>
               </article>
             </div>

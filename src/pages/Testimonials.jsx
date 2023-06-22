@@ -24,11 +24,11 @@ const Testimonials = () => {
           </div>
 
           <div className="py-20">
-            <div className="flex gap-1 lg:flex-row lg:justify-between lg:gap-16">
+            <div className="carousel-item flex gap-6 justify-center items-center sm:flex-row sm:justify-between lg:gap-16">
               <img
                 src={person1}
                 alt="testimonials"
-                className="h-28 sm:h-full"
+                className="h-16 sm:h-full"
               />
               <img
                 src={person3}
@@ -38,7 +38,7 @@ const Testimonials = () => {
               <img
                 src={person2}
                 alt="testimonials"
-                className="h-28 sm:h-full"
+                className="h-16 sm:h-full"
               />
             </div>
           </div>

@@ -34,9 +34,9 @@ const scrollToContact=(pos)=>{
                 </span>
               </div>
               <h1 className="text-4xl leading-[50px] font-normal capitalize lg:text-[48px] lg:leading-[60px] xl:text-[62px] xl:leading-[85px] mb-8">
-                get quality{" "}
+                Top In{" "}
                 <span className="relative font-bold">
-                  Tutoring
+                  Grades
                   <img
                     src={flower}
                     alt="flower"
@@ -44,14 +44,13 @@ const scrollToContact=(pos)=>{
                   />
                 </span>
                 <strong>
-                  <br /> through 1-on-1
+                  <br /> And Expert
                 </strong>
-                <br /> online tutoring
+                <br />In Quality
               </h1>
 
               <p className="mt-3 text-black font-Inter font-medium mb-10">
-                private, 1-on-1 lessions with te expert instructor based on
-                <br /> your goals and interests.
+              Welcome to {'"TOP GRADES EXPERTS,"'} 
               </p>
 
               <div className="mb-6 flex flex-col gap-10 sm:flex-row sm:gap-6">

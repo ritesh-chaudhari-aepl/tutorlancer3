@@ -1,6 +1,6 @@
 import sideImage from "../assets/group1.svg";
 import line from "../assets/line.svg";
-import CustomButton from "../components/buttons/CustomButton";
+// import CustomButton from "../components/buttons/CustomButton";
 
 const Schedule = () => {
   return (
