@@ -19,7 +19,7 @@ const Features = () => {
                 <strong>different</strong>
               </h3>
             </div>
-            <p className="text-center mt-3 font-semibold font-Inter sm:leading-[27px]">Urdoer is focused on ensuring to meet the needs of the <br className="hidden sm:block"></br> students around the globe for their assignments.</p>
+            <p className="text-center mt-3 font-semibold font-Inter sm:leading-[27px]">Top Graded Experts is focused on ensuring to meet the needs of the <br className="hidden sm:block"></br> students around the globe for their assignments.</p>
           </div>
 
           <div className="">

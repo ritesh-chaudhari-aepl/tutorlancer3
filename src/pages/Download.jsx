@@ -1,6 +1,6 @@
 import downloadImage from "../assets/download.png";
-import google from "../assets/google.svg";
-import { AiFillApple } from "react-icons/ai";
+// import google from "../assets/google.svg";
+// import { AiFillApple } from "react-icons/ai";
 import phone from "../assets/phone.gif"
 
 const Download = () => {
@@ -27,11 +27,11 @@ const Download = () => {
                 amplifies your team for
                 <br /> an unbeatable experience.
               </p>
-              <p className="text-sm font-QuickSand sm:text-lg capitalize sm:leading-[39px] mb-3">
+              {/* <p className="text-sm font-QuickSand sm:text-lg capitalize sm:leading-[39px] mb-3">
                 Get the App
-              </p>
+              </p> */}
               <div className="flex flex-col gap-4 sm:flex-row sm:gap-6 ">
-                <button className="ring-0 p-2 xl:px-8 xl:py-4 bg-black transition rounded-md hover:bg-black/75 focus:ring-red-100 capitalize flex items-center gap-2">
+                {/* <button className="ring-0 p-2 xl:px-8 xl:py-4 bg-black transition rounded-md hover:bg-black/75 focus:ring-red-100 capitalize flex items-center gap-2">
                   <img src={google} alt="icon" className="w-8" />
                   <span className="flex flex-col">
                     <span className="uppercase text-[10px] text-left font-bold font-Inter">
@@ -39,8 +39,8 @@ const Download = () => {
                     </span>
                     <span>Google Playstore</span>
                   </span>
-                </button>
-                <button className="ring-0 p-2 xl:px-8 xl:py-4 bg-black transition rounded-md hover:bg-black/75 focus:ring-red-100 capitalize flex items-center gap-2">
+                </button> */}
+                {/* <button className="ring-0 p-2 xl:px-8 xl:py-4 bg-black transition rounded-md hover:bg-black/75 focus:ring-red-100 capitalize flex items-center gap-2">
                   <AiFillApple size={30} color="white" />
                   <span className="flex flex-col">
                     <span className="uppercase text-[10px] text-left font-bold font-Inter">
@@ -48,20 +48,20 @@ const Download = () => {
                     </span>
                     <span>Google Applestore</span>
                   </span>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute left-[34rem] top-[6rem] xl:left-[48rem] xl:top-[7rem] lg:left-[38rem] xs-hidden">
-          <div className="circle rounded-full h-24 w-24 sm:h-32 sm:w-32 bg-violet-main flex flex-col justify-center items-center text-center relative lg:-left-16 lg:top-14 md:-left-16 md:top-16">
-            <span className="font-QuickSand font-bold sm:text-[40px]">98%</span>
+        <div className="absolute left-[34rem] top-[6rem] xl:left-[58rem] xl:top-[7rem] lg:left-[38rem] xs-hidden">
+          {/* <div className="circle rounded-full h-24 w-24 sm:h-32 sm:w-32  flex flex-col justify-center items-center text-center relative lg:-left-16 lg:top-14 md:-left-16 md:top-16">
+           <span className="font-QuickSand font-bold sm:text-[40px]">98%</span>
             <span className="text-[15px] font-QuickSand font-light leading-0 text-center">
               satisfied
               <br />
               customers
             </span>
-          </div>
+          </div> */}
 
           <div className=" rounded-full h-32 w-32 sm:h-48 sm:w-48 bg-green-garden flex flex-col p-2 items-center text-center">
             <span className="font-QuickSand font-bold sm:text-[30px]">

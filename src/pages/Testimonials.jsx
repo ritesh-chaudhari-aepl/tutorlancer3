@@ -80,7 +80,7 @@ const Testimonials = () => {
 
               <div className=" relative py-6">
                 <p className="text-center font-[500] text-sm leading-10 font-Nunito text-[26px]">
-                  tutorlancer has helped me not only understand the subject but
+                  Top Graded Experts has helped me not only understand the subject but
                   master the answering techniques required to obtain a
                   distinction. the material is not only well compiled and
                   organies but helps immensely with revision.

@@ -41,9 +41,10 @@ function Header({ myRef }) {
         </div>
         <div className="hidden sm:block">
           
-          <a
-            onClick={()=>alert("provide me whatapp link")}
+          <a 
+            href="https://wa.me/message/7ILE74P6Q4COD1"
             className="inline-block cursor-pointer rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
+            target='_blank' rel="noreferrer"
           >
            Chat with Us
           </a>
